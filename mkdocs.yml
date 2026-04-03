@@ -1,0 +1,145 @@
+site_name: Leanmote Documentation
+site_description: Technical documentation for the Leanmote engineering analytics platform
+site_author: Leanmote Team
+site_url: https://docs.leanmote.com
+
+repo_name: leanmote/docs
+repo_url: https://github.com/leanmote/docs
+
+theme:
+  name: material
+  logo: assets/images/leanmote-logo.png
+  favicon: assets/images/favicon.png
+  language: en
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Montserrat
+    code: JetBrains Mono
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: leanmote
+      repo: docs
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Overview: getting-started/overview.md
+    - Quick Start: getting-started/quick-start.md
+    - Configuration: getting-started/configuration.md
+  - Architecture:
+    - Overview: architecture/overview.md
+    - System Architecture: architecture-analysis.md
+    - Data Model: architecture/data-model.md
+    - Security: architecture/security.md
+  - Components:
+    - Web Application: leanmote-app.md
+    - Lambda Functions: lambda.md
+    - Insight Agent: insight-agent.md
+  - API Reference:
+    - Overview: api/overview.md
+    - Authentication: api/authentication.md
+    - API-LEANMOTE Endpoints: api/api-leanmote.md
+    - METRICS-TEST Endpoints: api/metrics-test.md
+    - Organizations: api/organizations.md
+    - Teams: api/teams.md
+    - Users: api/users.md
+    - Git: api/git.md
+    - Dashboards: api/dashboards.md
+  - Integrations:
+    - Overview: integrations/overview.md
+    - GitHub: integrations/github.md
+    - GitLab: integrations/gitlab.md
+    - Jira: integrations/jira.md
+    - Slack: integrations/slack.md
+    - Azure DevOps: integrations/azure-devops.md
+  - Development:
+    - Setup: development/setup.md
+    - Contributing: development/contributing.md
+    - Testing: development/testing.md
+  - Operations:
+    - Deployment: operations/deployment.md
+    - Monitoring: operations/monitoring.md
+    - Troubleshooting: operations/troubleshooting.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/leanmote
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/leanmote
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/company/leanmote
+  generator: false
+
+copyright: Copyright &copy; 2024-2026 Leanmote. All rights reserved.
