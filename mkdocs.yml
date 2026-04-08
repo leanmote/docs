@@ -100,6 +100,7 @@ nav:
   - Product Guide:
     - Using app.leanmote.com: leanmote-app.md
     - Metrics Methodology: metrics/how-we-measure.md
+    - Docs Release Cadence: operations/docs-release-cadence.md
   - Architecture:
     - Platform Overview: architecture/overview.md
   - API Reference:
