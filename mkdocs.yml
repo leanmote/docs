@@ -1,5 +1,5 @@
 site_name: Leanmote Documentation
-site_description: Technical documentation for the Leanmote engineering analytics platform
+site_description: Product documentation for the Leanmote engineering intelligence platform
 site_author: Leanmote Team
 site_url: https://leanmote.github.io/docs
 
@@ -96,26 +96,22 @@ nav:
   - Getting Started:
     - Overview: getting-started/overview.md
     - Quick Start: getting-started/quick-start.md
-    - Configuration: getting-started/configuration.md
+    - Workspace Configuration: getting-started/configuration.md
+  - Product Guide:
+    - Using app.leanmote.com: leanmote-app.md
+    - Metrics Methodology: metrics/how-we-measure.md
   - Architecture:
-    - Overview: architecture/overview.md
-    - System Architecture: architecture-analysis.md
-    - Data Model: architecture/data-model.md
-    - Security: architecture/security.md
-  - Components:
-    - Web Application: leanmote-app.md
-    - Lambda Functions: lambda.md
-    - Insight Agent: insight-agent.md
+    - Platform Overview: architecture/overview.md
   - API Reference:
     - Overview: api/overview.md
     - Authentication: api/authentication.md
-    - API-LEANMOTE Endpoints: api/api-leanmote.md
-    - METRICS-TEST Endpoints: api/metrics-test.md
     - Organizations: api/organizations.md
     - Teams: api/teams.md
     - Users: api/users.md
     - Git: api/git.md
     - Dashboards: api/dashboards.md
+    - API-LEANMOTE Endpoints: api/api-leanmote.md
+    - METRICS-TEST Endpoints: api/metrics-test.md
   - Integrations:
     - Overview: integrations/overview.md
     - GitHub: integrations/github.md

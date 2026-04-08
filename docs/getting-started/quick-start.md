@@ -1,136 +1,60 @@
 # Quick Start
 
-Get Leanmote running locally in minutes.
+This guide gets a new organization from account creation to first insights quickly.
 
-## Prerequisites
+## 1. Access the platform
 
-- PHP 8.1+
-- Composer
-- MySQL 5.7+ or 8.0+
-- Node.js 18+ (for frontend assets)
-- Python 3.11+ (for Lambda functions and Insight Agent)
+1. Sign in at `https://app.leanmote.com`
+2. Create an organization (or accept your invite)
+3. Confirm user role permissions for admins and managers
 
-## Installation
+## 2. Connect your first tools
 
-### 1. Clone the Repositories
+Recommended minimum setup:
 
-```bash
-# Main web application
-git clone https://github.com/leanmote/leanmote.git
-cd leanmote
+- One source control provider (GitHub, GitLab, or Azure DevOps)
+- One project/work tracker (Jira, Linear, ClickUp, or Azure Boards)
 
-# Lambda functions (optional, for local development)
-git clone https://github.com/leanmote/lambda.git
+From the app:
 
-# Insight Agent (optional, for AI features)
-git clone https://github.com/leanmote/insight_agent.git
-```
+1. Open **Settings > Integrations**
+2. Select a provider and authorize access
+3. Choose repositories/projects/boards to sync
 
-### 2. Configure Environment
+## 3. Validate data readiness
 
-Copy the example environment file:
+Before using dashboards, confirm:
 
-```bash
-cp env.example .env
-```
+- Repositories and teams are mapped correctly
+- Historical sync completed successfully
+- Members are attached to the right teams
 
-Edit `.env` with your settings:
+## 4. Open your first dashboard
 
-```bash
-# Application
-CI_ENVIRONMENT = development
-app.baseURL = 'http://localhost:8080'
+1. Go to **Dashboards**
+2. Select a delivery-focused template
+3. Apply filters for date range and teams
+4. Review DORA and flow trend charts
 
-# Database
-database.default.hostname = localhost
-database.default.database = leanmote
-database.default.username = your_username
-database.default.password = your_password
-database.default.port = 3306
+## 5. Establish your baseline
 
-# Email (for magic link login)
-email.protocol = smtp
-email.SMTPHost = smtp.example.com
-email.SMTPUser = your_email@example.com
-email.SMTPPass = your_password
-email.SMTPPort = 587
-email.SMTPCrypto = tls
-```
+Record your current baseline for:
 
-### 3. Install Dependencies
+- Deployment frequency
+- Lead time for changes
+- Throughput
+- Cycle time
 
-```bash
-composer install
-```
+This gives your team a measurable starting point for improvement.
 
-### 4. Set Up Database
+## 6. Start a weekly operating rhythm
 
-Create the database:
+- Weekly: review trend movement and outliers
+- Bi-weekly: validate workflow and team mappings
+- Monthly: review goals and compare against baseline
 
-```bash
-mysql -u root -p -e "CREATE DATABASE leanmote CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;"
-```
+## Next
 
-Import the schema:
-
-```bash
-mysql -u root -p leanmote < database/model.sql
-```
-
-### 5. Start the Server
-
-```bash
-php spark serve
-```
-
-Access the application at `http://localhost:8080`.
-
-## First Steps
-
-### 1. Create an Organization
-
-After logging in, create your first organization:
-
-1. Navigate to Settings > Organizations
-2. Click "Create Organization"
-3. Enter your organization name and details
-
-### 2. Connect Your First Integration
-
-Connect a data source:
-
-1. Go to Settings > Integrations
-2. Select a platform (e.g., GitHub)
-3. Click "Connect" and authorize access
-4. Select repositories to track
-
-### 3. View Your Dashboard
-
-Once data starts syncing:
-
-1. Navigate to Dashboards
-2. Select "Performance & Delivery"
-3. View your DORA and flow metrics
-
-## Running Cron Jobs
-
-Leanmote uses cron jobs to sync data from external sources. Run them manually:
-
-```bash
-# Sync GitHub repositories
-php public/index.php github/get-repositories/all
-
-# Sync Jira issues
-php public/index.php jira/get-cron-project-issues/0/0/0/0
-
-# Distribute execution queue
-php public/index.php cron/distribute-executions/100
-```
-
-For production, set up cron jobs to run these commands periodically.
-
-## Next Steps
-
-- [Configuration Guide](configuration.md) - Advanced configuration options
-- [Integrations](../integrations/overview.md) - Connect more data sources
-- [API Reference](../api/overview.md) - Integrate with external systems
+- [Workspace Configuration](configuration.md)
+- [Using app.leanmote.com](../leanmote-app.md)
+- [Metrics Methodology](../metrics/how-we-measure.md)

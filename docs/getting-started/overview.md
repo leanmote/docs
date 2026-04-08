@@ -1,68 +1,37 @@
 # Overview
 
-Leanmote is an engineering analytics platform that aggregates data from 20+ development tools to provide real-time metrics, insights, and analytics for engineering teams.
+Leanmote is an engineering intelligence platform for teams that want measurable improvement in software delivery.
 
-## What is Leanmote?
+It unifies data from source control, project management, and communication tools to produce actionable dashboards for engineering managers, directors, and executives.
 
-Leanmote helps engineering leaders:
+## Typical onboarding flow
 
-- **Track DORA Metrics** - Deployment frequency, lead time, MTTR, change failure rate
-- **Monitor Flow Metrics** - Throughput, WIP, cycle time
-- **Analyze Team Collaboration** - Review participation, code review metrics, team activity
-- **Detect Bottlenecks** - AI-powered identification of process inefficiencies
-- **Set and Track Targets** - Automated KPI target calculation and progress tracking
+1. Create or join your organization in `app.leanmote.com`
+2. Connect at least one source control tool and one planning tool
+3. Confirm data sync and repository/project mapping
+4. Open your first dashboard and validate baseline metrics
+5. Set goals and review trends weekly
 
-## Key Features
+## Who benefits most
 
-### Multi-Platform Integration
-Connect to 20+ development tools including GitHub, GitLab, Jira, Slack, Linear, Azure DevOps, and more. Leanmote automatically aggregates data across all your tools.
+- Engineering managers running multiple squads
+- VP/Head of Engineering teams tracking strategic delivery health
+- PMO or operations teams supporting engineering governance
 
-### Real-Time Dashboards
-Customizable dashboards with real-time metrics. Filter by team, project, date range, and custom criteria. Share dashboards with stakeholders or make them public.
+## Metric families in Leanmote
 
-### AI-Powered Insights
-Automatic bottleneck detection using graph analytics. Get actionable insights about where your development process is slowing down.
+- DORA: deployment frequency, lead time, MTTR, change failure rate
+- Flow: throughput, cycle time, work in progress
+- Team execution: review participation, collaboration activity, delivery consistency
 
-### Target Management
-Set KPI targets and track progress. Leanmote can automatically calculate targets based on historical performance.
+## Platform value in practice
 
-## Platform Components
+- Replace fragmented reports with one shared metrics layer
+- Spot blockers early through trend and variance analysis
+- Make planning and staffing decisions with objective evidence
 
-| Component | Description |
-|-----------|-------------|
-| **Web Application** | CodeIgniter 4 PHP application providing the main user interface |
-| **Lambda Functions** | AWS Lambda services for API, data extraction, and sync |
-| **Insight Agent** | LangGraph-based AI pipeline for bottleneck detection |
+## Continue here
 
-## Supported Integrations
-
-### Source Control
-- GitHub
-- GitLab (including self-hosted)
-- Bitbucket
-- Azure DevOps Repos
-
-### Project Management
-- Jira
-- Linear
-- ClickUp
-- Monday.com
-- Notion
-- Azure DevOps Boards
-
-### Communication
-- Slack
-- Discord
-
-### Calendar
-- Google Calendar (Enterprise)
-
-### AI Tools
-- GitHub Copilot
-- Claude Code
-
-## Next Steps
-
-- [Quick Start](quick-start.md) - Get up and running in minutes
-- [Configuration](configuration.md) - Configure your environment
-- [Architecture Overview](../architecture/overview.md) - Understand the system architecture
+- [Quick Start](quick-start.md)
+- [Workspace Configuration](configuration.md)
+- [Using app.leanmote.com](../leanmote-app.md)
