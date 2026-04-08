@@ -123,14 +123,6 @@ nav:
     - Jira: integrations/jira.md
     - Slack: integrations/slack.md
     - Azure DevOps: integrations/azure-devops.md
-  - Development:
-    - Setup: development/setup.md
-    - Contributing: development/contributing.md
-    - Testing: development/testing.md
-  - Operations:
-    - Deployment: operations/deployment.md
-    - Monitoring: operations/monitoring.md
-    - Troubleshooting: operations/troubleshooting.md
 
 extra:
   social:

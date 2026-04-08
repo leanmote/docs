@@ -341,11 +341,6 @@ Email settings are populated from `SES_CREDENTIALS_JSON` secret on AWS:
 }
 ```
 
-### Development Mail Testing
-```
-GET /dev/mail-test?target=your_email@example.com
-```
-
 ## Authentication Flow
 
 1. **Cognito OAuth** - Primary authentication mechanism

@@ -161,4 +161,3 @@ Leanmote only requests read-only access to:
 
 - [Integrations Overview](overview.md)
 - [API Reference](../api/overview.md)
-- [Troubleshooting Guide](../operations/troubleshooting.md)

@@ -240,4 +240,3 @@ API tokens are hashed with SHA256 and a static salt. Never store plaintext token
 
 - [Integrations Overview](../integrations/overview.md) - Set up data source connections
 - [API Reference](../api/overview.md) - Use the Leanmote API
-- [Deployment Guide](../operations/deployment.md) - Deploy to production

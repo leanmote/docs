@@ -128,22 +128,17 @@ LangGraph-based multi-agent pipeline for investigating development problems.
 
 ## Getting Started
 
-### For Developers
-1. Review the [Leanmote Web Application](leanmote-app.md) documentation for the main codebase
-2. Understand the [Lambda Functions](lambda.md) for API and data processing
-3. Explore the [Insight Agent](insight-agent.md) for AI-powered analysis
-
-### For DevOps
-1. Lambda functions are deployed on AWS
-2. Web application runs on Elastic Beanstalk
-3. Neo4j Aura for graph analytics
-4. MySQL (RDS) for relational data
-
 ### For Integration
 1. OAuth flows for each supported platform
 2. Webhook endpoints for real-time updates
 3. Cron jobs for scheduled data synchronization
 4. API endpoints for external access
+
+### Infrastructure (Brief)
+- Web application hosted on AWS Elastic Beanstalk
+- Serverless processing on AWS Lambda
+- Relational data on MySQL (Amazon RDS)
+- Graph analytics on Neo4j Aura
 
 ## Documentation Index
 
