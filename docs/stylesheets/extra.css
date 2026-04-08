@@ -13,3 +13,18 @@
   --md-accent-fg-color: #38d0e6;
   --md-typeset-a-color: #6ed9ea;
 }
+
+/* Keep the palette toggle icon centered and visually consistent in both modes. */
+[data-md-component="palette"] .md-header__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 999px;
+}
+
+[data-md-component="palette"] .md-header__button .md-icon svg {
+  width: 1.15rem;
+  height: 1.15rem;
+}

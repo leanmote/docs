@@ -27,13 +27,13 @@ theme:
       primary: custom
       accent: custom
       toggle:
-        icon: material/brightness-7
+        icon: material/weather-night
         name: Switch to dark mode
     - scheme: slate
       primary: custom
       accent: custom
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-sunny
         name: Switch to light mode
   font:
     text: Montserrat
