@@ -16,15 +16,19 @@
 
 /* Keep the palette toggle icon centered and visually consistent in both modes. */
 [data-md-component="palette"] .md-header__button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  display: inline-grid;
+  place-items: center;
   width: 2rem;
   height: 2rem;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
   border-radius: 999px;
 }
 
 [data-md-component="palette"] .md-header__button .md-icon svg {
+  display: block;
+  margin: 0;
   width: 1.15rem;
   height: 1.15rem;
 }
