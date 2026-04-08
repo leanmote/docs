@@ -1,107 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://docs.leanmote.com/</loc>
+         <loc>https://leanmote.github.io/docs/</loc>
          <lastmod>2026-04-08</lastmod>
     </url>
     <url>
-         <loc>https://docs.leanmote.com/architecture-analysis/</loc>
+         <loc>https://leanmote.github.io/docs/architecture-analysis/</loc>
          <lastmod>2026-04-08</lastmod>
     </url>
     <url>
-         <loc>https://docs.leanmote.com/insight-agent/</loc>
+         <loc>https://leanmote.github.io/docs/insight-agent/</loc>
          <lastmod>2026-04-08</lastmod>
     </url>
     <url>
-         <loc>https://docs.leanmote.com/lambda/</loc>
+         <loc>https://leanmote.github.io/docs/lambda/</loc>
          <lastmod>2026-04-08</lastmod>
     </url>
     <url>
-         <loc>https://docs.leanmote.com/leanmote-app/</loc>
+         <loc>https://leanmote.github.io/docs/leanmote-app/</loc>
          <lastmod>2026-04-08</lastmod>
     </url>
     <url>
-         <loc>https://docs.leanmote.com/api/api-leanmote/</loc>
+         <loc>https://leanmote.github.io/docs/api/api-leanmote/</loc>
          <lastmod>2026-04-08</lastmod>
     </url>
     <url>
-         <loc>https://docs.leanmote.com/api/authentication/</loc>
+         <loc>https://leanmote.github.io/docs/api/authentication/</loc>
          <lastmod>2026-04-08</lastmod>
     </url>
     <url>
-         <loc>https://docs.leanmote.com/api/dashboards/</loc>
+         <loc>https://leanmote.github.io/docs/api/dashboards/</loc>
          <lastmod>2026-04-08</lastmod>
     </url>
     <url>
-         <loc>https://docs.leanmote.com/api/git/</loc>
+         <loc>https://leanmote.github.io/docs/api/git/</loc>
          <lastmod>2026-04-08</lastmod>
     </url>
     <url>
-         <loc>https://docs.leanmote.com/api/metrics-test/</loc>
+         <loc>https://leanmote.github.io/docs/api/metrics-test/</loc>
          <lastmod>2026-04-08</lastmod>
     </url>
     <url>
-         <loc>https://docs.leanmote.com/api/organizations/</loc>
+         <loc>https://leanmote.github.io/docs/api/organizations/</loc>
          <lastmod>2026-04-08</lastmod>
     </url>
     <url>
-         <loc>https://docs.leanmote.com/api/overview/</loc>
+         <loc>https://leanmote.github.io/docs/api/overview/</loc>
          <lastmod>2026-04-08</lastmod>
     </url>
     <url>
-         <loc>https://docs.leanmote.com/api/teams/</loc>
+         <loc>https://leanmote.github.io/docs/api/teams/</loc>
          <lastmod>2026-04-08</lastmod>
     </url>
     <url>
-         <loc>https://docs.leanmote.com/api/users/</loc>
+         <loc>https://leanmote.github.io/docs/api/users/</loc>
          <lastmod>2026-04-08</lastmod>
     </url>
     <url>
-         <loc>https://docs.leanmote.com/architecture/data-model/</loc>
+         <loc>https://leanmote.github.io/docs/architecture/data-model/</loc>
          <lastmod>2026-04-08</lastmod>
     </url>
     <url>
-         <loc>https://docs.leanmote.com/architecture/overview/</loc>
+         <loc>https://leanmote.github.io/docs/architecture/overview/</loc>
          <lastmod>2026-04-08</lastmod>
     </url>
     <url>
-         <loc>https://docs.leanmote.com/architecture/security/</loc>
+         <loc>https://leanmote.github.io/docs/architecture/security/</loc>
          <lastmod>2026-04-08</lastmod>
     </url>
     <url>
-         <loc>https://docs.leanmote.com/getting-started/configuration/</loc>
+         <loc>https://leanmote.github.io/docs/getting-started/configuration/</loc>
          <lastmod>2026-04-08</lastmod>
     </url>
     <url>
-         <loc>https://docs.leanmote.com/getting-started/overview/</loc>
+         <loc>https://leanmote.github.io/docs/getting-started/overview/</loc>
          <lastmod>2026-04-08</lastmod>
     </url>
     <url>
-         <loc>https://docs.leanmote.com/getting-started/quick-start/</loc>
+         <loc>https://leanmote.github.io/docs/getting-started/quick-start/</loc>
          <lastmod>2026-04-08</lastmod>
     </url>
     <url>
-         <loc>https://docs.leanmote.com/integrations/azure-devops/</loc>
+         <loc>https://leanmote.github.io/docs/integrations/azure-devops/</loc>
          <lastmod>2026-04-08</lastmod>
     </url>
     <url>
-         <loc>https://docs.leanmote.com/integrations/github/</loc>
+         <loc>https://leanmote.github.io/docs/integrations/github/</loc>
          <lastmod>2026-04-08</lastmod>
     </url>
     <url>
-         <loc>https://docs.leanmote.com/integrations/gitlab/</loc>
+         <loc>https://leanmote.github.io/docs/integrations/gitlab/</loc>
          <lastmod>2026-04-08</lastmod>
     </url>
     <url>
-         <loc>https://docs.leanmote.com/integrations/jira/</loc>
+         <loc>https://leanmote.github.io/docs/integrations/jira/</loc>
          <lastmod>2026-04-08</lastmod>
     </url>
     <url>
-         <loc>https://docs.leanmote.com/integrations/overview/</loc>
+         <loc>https://leanmote.github.io/docs/integrations/overview/</loc>
          <lastmod>2026-04-08</lastmod>
     </url>
     <url>
-         <loc>https://docs.leanmote.com/integrations/slack/</loc>
+         <loc>https://leanmote.github.io/docs/integrations/slack/</loc>
          <lastmod>2026-04-08</lastmod>
     </url>
 </urlset>

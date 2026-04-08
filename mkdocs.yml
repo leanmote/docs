@@ -1,7 +1,7 @@
 site_name: Leanmote Documentation
 site_description: Technical documentation for the Leanmote engineering analytics platform
 site_author: Leanmote Team
-site_url: https://docs.leanmote.com
+site_url: https://leanmote.github.io/docs
 
 repo_name: leanmote/docs
 repo_url: https://github.com/leanmote/docs
