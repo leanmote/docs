@@ -1,6 +1,13 @@
-﻿# API Overview
+# API Overview
 
-The Leanmote API provides programmatic access to engineering metrics, teams, and dashboard data.
+The Leanmote API portfolio provides programmatic access to platform entities, engineering metrics, and enterprise identity workflows.
+
+## API surfaces
+
+- [REST API](rest-api.md): organizations, teams, users, integrations, and dashboard resources.
+- [Metrics API](metrics-api.md): analytical metric payloads across DORA, flow, collaboration, and financial views.
+- [SCIM Handler](scim-handler.md): enterprise user provisioning and lifecycle automation.
+- [OTEL Ingest](otel-ingest.md): telemetry ingestion for custom workflow and observability events.
 
 ## Base URL
 
@@ -189,6 +196,8 @@ Leanmote supports outgoing webhooks for real-time notifications. Configure webho
 ## Next Steps
 
 - [Authentication](authentication.md) - Detailed auth guide
+- [REST API](rest-api.md) - Resource-oriented integration guide
+- [Metrics API](metrics-api.md) - Metric payload integration guide
 - [Organizations API](organizations.md) - Organization endpoints
 - [Teams API](teams.md) - Team endpoints
 - [Users API](users.md) - User endpoints
@@ -198,4 +207,3 @@ Leanmote supports outgoing webhooks for real-time notifications. Configure webho
 
 - [API-LEANMOTE Endpoints](api-leanmote.md)
 - [METRICS-TEST Endpoints](metrics-test.md)
-

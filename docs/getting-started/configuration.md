@@ -1,56 +1,42 @@
 # Workspace Configuration
 
-This page covers the product-level configuration required for teams using `app.leanmote.com`.
+Use this checklist after first login to ensure your Leanmote workspace is reliable at scale.
 
-## Organization setup checklist
+## Organization baseline
 
-- Organization profile and timezone are configured
-- Team structure reflects your real operating model
-- Role permissions are assigned (admin, manager, collaborator)
-- Default dashboard access is reviewed
+- Configure organization name, timezone, and reporting defaults.
+- Confirm admin and manager access levels.
+- Review who can edit integrations, teams, and settings.
 
-## Integration configuration
+## Integration baseline
 
 For each connected provider:
 
-- Authorize with a service account that has stable access
-- Limit scope to relevant repositories/projects/boards
-- Validate webhook or sync permissions
-- Confirm repository/project ownership mapping
+- Authorize with a stable service account.
+- Scope sync to active repositories/projects/boards.
+- Validate webhook or polling health.
+- Confirm expected data backfill period for your plan.
 
-## Data quality controls
+## Mapping baseline
 
-To keep metrics trustworthy:
+- Configure status mapping for board workflows.
+- Verify user identity mapping across tools.
+- Validate team ownership for repositories and projects.
 
-- Standardize workflow status mapping (for cycle/flow accuracy)
-- Confirm pull request and issue identities map to the correct users
-- Review inactive repositories and archive if no longer tracked
-- Keep team membership current
+## Dashboard baseline
 
-## Dashboard configuration best practices
+- Save default filters (time range, teams, scope).
+- Define standard KPI views for managers and executives.
+- Share dashboard presets by role.
 
-- Define a default date window for operational reviews
-- Save team-level dashboard variants
-- Share executive views separately from team-operational views
-- Keep a standard KPI set across all engineering teams
+## Governance baseline
 
-## Access and governance
+- Rotate API tokens on a defined schedule.
+- Audit role/access changes regularly.
+- Use SCIM/SSO for enterprise identity governance when required.
 
-- Use least-privilege access for integrations
-- Rotate API tokens regularly
-- Audit new users and role changes monthly
-- Review public-share links and disable unused ones
+## Continue
 
-## API access
-
-If your team consumes Leanmote metrics programmatically:
-
-1. Generate API tokens in **Settings > API Tokens**
-2. Store tokens in your secrets manager
-3. Use [API Overview](../api/overview.md) and endpoint docs for integration
-
-## Next
-
-- [Using app.leanmote.com](../leanmote-app.md)
-- [Architecture Overview](../architecture/overview.md)
-- [Metrics Methodology](../metrics/how-we-measure.md)
+- [Administration Overview](../administration/overview.md)
+- [Dashboards Overview](../dashboards/overview.md)
+- [API Overview](../api/overview.md)

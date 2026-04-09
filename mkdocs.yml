@@ -97,14 +97,27 @@ nav:
     - Overview: getting-started/overview.md
     - Quick Start: getting-started/quick-start.md
     - Workspace Configuration: getting-started/configuration.md
-  - Product Guide:
-    - Using app.leanmote.com: leanmote-app.md
-    - Metrics Methodology: metrics/how-we-measure.md
-    - Docs Release Cadence: operations/docs-release-cadence.md
+  - Administration:
+    - Overview: administration/overview.md
+    - Integrations: administration/integrations.md
+    - Users and Teams Management: administration/users-and-teams.md
+    - Settings: administration/settings.md
+  - Dashboards:
+    - Overview: dashboards/overview.md
+    - Performance Delivery: dashboards/performance-delivery.md
+    - Project Financials: dashboards/project-financials.md
+    - Strategic Overview: dashboards/strategic-overview.md
+    - Bottleneck Insights: dashboards/bottleneck-insights.md
+    - AI Tools: dashboards/ai-tools.md
   - Architecture:
     - Platform Overview: architecture/overview.md
+    - Security Model: architecture/security.md
   - API Reference:
     - Overview: api/overview.md
+    - REST API: api/rest-api.md
+    - Metrics API: api/metrics-api.md
+    - SCIM Handler: api/scim-handler.md
+    - OTEL Ingest: api/otel-ingest.md
     - Authentication: api/authentication.md
     - Organizations: api/organizations.md
     - Teams: api/teams.md
@@ -120,6 +133,9 @@ nav:
     - Jira: integrations/jira.md
     - Slack: integrations/slack.md
     - Azure DevOps: integrations/azure-devops.md
+  - Methodology and Ops:
+    - Metrics Methodology: metrics/how-we-measure.md
+    - Docs Release Cadence: operations/docs-release-cadence.md
 
 extra:
   social:

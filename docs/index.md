@@ -1,42 +1,32 @@
 # Leanmote Documentation
 
-Leanmote helps engineering organizations improve delivery performance with shared visibility across code, planning, and collaboration tools.
+Leanmote gives engineering organizations a single operating system for delivery performance: connect your tools, align your teams, and run decisions on metrics you can trust.
 
-This documentation is focused on users of `app.leanmote.com`: connecting integrations, reading metrics, and taking action from dashboards.
+This documentation is organized around how teams adopt and scale Leanmote in production.
 
-## Why teams use Leanmote
-
-- Improve delivery predictability with DORA and flow metrics
-- Detect bottlenecks before they become delivery risks
-- Align engineering managers and executives around one metrics source
-- Turn operational data into weekly decisions, not monthly surprises
-
-## What you can do in the platform
-
-- Connect your engineering tools (GitHub, GitLab, Jira, Slack, Azure DevOps, and others)
-- Build dashboards for teams, departments, and executive reporting
-- Analyze engineering health by team, repository, workflow, or date range
-- Track trends for delivery speed, quality, throughput, and collaboration
-
-## Suggested reading path
+## Recommended reading path
 
 1. [Getting Started Overview](getting-started/overview.md)
 2. [Quick Start](getting-started/quick-start.md)
-3. [Using app.leanmote.com](leanmote-app.md)
-4. [Metrics Methodology](metrics/how-we-measure.md)
+3. [Administration Overview](administration/overview.md)
+4. [Dashboards Overview](dashboards/overview.md)
 5. [API Overview](api/overview.md)
 
-## Core outcomes
+## What is inside
 
-### Delivery performance
-Leanmote gives leaders an objective view of deployment frequency, lead time, change failure rate, and recovery speed.
+- **Getting Started**: sign in, create your organization, connect productivity tools, and validate first sync.
+- **Administration**: integration governance, user and team mapping, access levels, and organization settings.
+- **Dashboards**: how each dashboard supports operational and strategic engineering reviews.
+- **Architecture**: a concise view of platform data flow and security principles.
+- **API Reference**: REST and Metrics APIs plus SCIM and OTEL integration patterns.
 
-### Flow efficiency
-You can monitor throughput, cycle time, and work in progress to identify where work stalls.
+## Outcomes teams target with Leanmote
 
-### Team collaboration
-Leanmote highlights review participation, interaction patterns, and execution consistency across teams.
+- Faster and more predictable delivery planning
+- Shared operational truth across managers and executives
+- Earlier detection of workflow and collaboration bottlenecks
+- Better investment decisions across teams, projects, and tooling
 
 ## Need implementation details?
 
-This docs site prioritizes public, product-facing guidance. Internal implementation details are intentionally excluded from the main navigation.
+For low-level endpoint catalogs and payload-level references, continue to the [API Reference](api/overview.md).

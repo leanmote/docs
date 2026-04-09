@@ -1,37 +1,43 @@
 # Overview
 
-Leanmote is an engineering intelligence platform for teams that want measurable improvement in software delivery.
+Getting started with Leanmote is designed to be quick, secure, and outcome-driven.
 
-It unifies data from source control, project management, and communication tools to produce actionable dashboards for engineering managers, directors, and executives.
+Your first objective is simple: connect the tools your teams already use and generate a reliable baseline for delivery metrics.
 
-## Typical onboarding flow
+## New organization onboarding flow
 
-1. Create or join your organization in `app.leanmote.com`
-2. Connect at least one source control tool and one planning tool
-3. Confirm data sync and repository/project mapping
-4. Open your first dashboard and validate baseline metrics
-5. Set goals and review trends weekly
+1. Sign in at `app.leanmote.com`.
+2. Create your organization and confirm organization naming.
+3. Open **Settings > Productivity Tools** and connect your first integrations.
+4. Select repositories, projects, and teams to include.
+5. Validate first sync and open your first dashboard.
 
-## Who benefits most
+## What changes after onboarding
 
-- Engineering managers running multiple squads
-- VP/Head of Engineering teams tracking strategic delivery health
-- PMO or operations teams supporting engineering governance
+- Leaders review delivery trends weekly instead of building manual reports.
+- Teams align on one metrics language for throughput, cycle time, and quality.
+- Delivery risks are visible earlier through bottleneck and collaboration signals.
 
-## Metric families in Leanmote
+## Security and permissions, at a glance
 
-- DORA: deployment frequency, lead time, MTTR, change failure rate
-- Flow: throughput, cycle time, work in progress
-- Team execution: review participation, collaboration activity, delivery consistency
+Leanmote uses scoped authorization and role-based access to limit data exposure.
 
-## Platform value in practice
+- Integrations request only the scopes needed for analytics.
+- Access can be segmented by role and team responsibility.
+- Enterprise customers can extend governance with SCIM and SSO.
 
-- Replace fragmented reports with one shared metrics layer
-- Spot blockers early through trend and variance analysis
-- Make planning and staffing decisions with objective evidence
+See [Integrations](../administration/integrations.md) for a full permissions and security overview.
+
+## Backfill depth and plan limits
+
+Historical sync depth depends on the plan and connected provider constraints.
+
+- Some plans prioritize near-term operational history.
+- Higher tiers can ingest longer historical ranges for trend analysis.
+- Initial sync duration depends on source volume and selected scope.
 
 ## Continue here
 
 - [Quick Start](quick-start.md)
 - [Workspace Configuration](configuration.md)
-- [Using app.leanmote.com](../leanmote-app.md)
+- [Administration Overview](../administration/overview.md)
